@@ -2,8 +2,8 @@ package middleCource.thread;
 
 public class TheadMainExam2 {
 	public static void main(String[] args) {
-		Thread thread = new Thread(new ThreadExam2("Ã¹¹øÂ° ½º·¹µå"));
-		Thread thread2 = new Thread(new ThreadExam2("µÎ¹øÂ° ½º·¹µå"));
+		Thread thread = new Thread(new ThreadExam2("ì²«ë²ˆì§¸ first ""));
+		Thread thread2 = new Thread(new ThreadExam2("ë‘ë²ˆì§¸ second "));
 		
 		thread.start();
 		thread2.start();
