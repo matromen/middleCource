@@ -10,7 +10,7 @@ public class ThreadExam2 implements Runnable{
 	@Override
 	public void run() {
 		for(int i=0; i<100; i++) {
-			System.out.println(name + " " + i);
+			System.out.println(name + ", " + i);
 
 			try {
 				Thread.sleep((int)(Math.random()*1000));
